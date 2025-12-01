@@ -1,0 +1,11 @@
+# Ignore IntelliJ IDEA configurations
+/.idea/
+
+# Ignore Java compiled classes
+*.class
+
+# Ignore configuration files
+*.iml
+
+# Ignore Maven dependencies (if applicable)
+/target/
