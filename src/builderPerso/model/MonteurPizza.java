@@ -1,15 +1,15 @@
-package builder.model;
+
+package builderPerso.model;
 
 public abstract class MonteurPizza {
-    protected Pizza pizza = new Pizza();
+    protected Pizza pizza;
+
+    public MonteurPizza() {
+        this.pizza = new Pizza(); // Créer une nouvelle instance de Pizza
+    }
 
     public Pizza getPizza() {
-        // TODO: méthode générée automatiquement
-        // Appel des méthodes pour construire respectivement la pâte, le sauce et la garniture
-        monterPate();
-        monterSauce();
-        monterGarniture();
-        return pizza;
+        return pizza; // Retourner l'objet Pizza
     }
 
     public abstract void monterPate();

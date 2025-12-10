@@ -1,4 +1,4 @@
-package builder.model;
+package builderPerso.model;
 
 public class MonteurPizzaPiquante extends MonteurPizza {
 

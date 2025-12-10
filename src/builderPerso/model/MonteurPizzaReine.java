@@ -1,16 +1,18 @@
-package builder.model;
+package builderPerso.model;
 
-public class MonteurPizzaPiquante extends MonteurPizza {
-
+public class MonteurPizzaReine extends MonteurPizza {
+    @Override
     public void monterPate() {
-        pizza.setPate("feuilletée");
+        pizza.setPate("épaisse");
     }
 
+    @Override
     public void monterSauce() {
-        pizza.setSauce("piquante");
+        pizza.setSauce("tomate");
     }
 
+    @Override
     public void monterGarniture() {
-        pizza.setGarniture("pepperoni + salami");
+        pizza.setGarniture("jambon + champignons");
     }
 }

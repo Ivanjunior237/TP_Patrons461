@@ -1,6 +1,6 @@
-package builder;
+package builderPerso;
 
-import builder.model.Directeur;
+import builderPerso.model.Directeur; // Importation modifiée
 
 public class Main {
     public static void main(String[] args) {

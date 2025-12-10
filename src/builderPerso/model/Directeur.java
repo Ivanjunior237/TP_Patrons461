@@ -1,10 +1,10 @@
-package builder.model;
+package builderPerso.model;
 
-import builder.model.Pizza;
+import builder.model.Pizza; // Importation correcte
 import builder.model.MonteurPizza;
 import builder.model.MonteurPizzaPiquante;
 import builder.model.MonteurPizzaReine;
-import builderPerso.MonteurPizzaPillee; // Importez votre nouvelle classe
+import builderPerso.MonteurPizzaPillee;
 
 public class Directeur {
     public Pizza construirePizzaPiquante() {
@@ -17,8 +17,8 @@ public class Directeur {
         return pizzaReine.getPizza();
     }
 
-    public Pizza construirePizzaPillee() { // Nouvelle méthode
+    public Pizza construirePizzaPillee() {
         MonteurPizza pizzaPillee = new MonteurPizzaPillee();
-        return pizzaPillee.getPizza();
+        return pizzaPillee.getPizza(); // Utilisation de la classe Pizza ici
     }
 }
