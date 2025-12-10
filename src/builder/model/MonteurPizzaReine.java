@@ -1,19 +1,18 @@
 package builder.model;
 
 public class MonteurPizzaReine extends MonteurPizza {
-
     @Override
     public void monterPate() {
-        pizza.setPate("croisée");
+        pizza.setPate("épaisse");
     }
 
     @Override
     public void monterSauce() {
-        pizza.setSauce("douce");
+        pizza.setSauce("tomate");
     }
 
     @Override
     public void monterGarniture() {
-        pizza.setGarniture("jambon + champignon");
+        pizza.setGarniture("jambon + champignons");
     }
 }
